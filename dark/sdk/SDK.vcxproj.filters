@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Interfaces">
+      <UniqueIdentifier>{8df775d2-419f-4be4-866e-6e8be4fa09fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Container">
+      <UniqueIdentifier>{e0ec8485-96d8-489f-88a6-174924f35f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Extra">
+      <UniqueIdentifier>{a8c82b0b-8f17-46d2-9ac6-ffc146b1ddf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Spells">
+      <UniqueIdentifier>{50181b6e-adb2-4bcc-b705-c44506f45f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Geometry">
+      <UniqueIdentifier>{43b03315-d88c-4c7d-bcaa-5a2a50211865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Geometry\Clipper">
+      <UniqueIdentifier>{8d6ad18c-17de-4d5b-976f-c595e84189a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hashes">
+      <UniqueIdentifier>{0f70b246-0de6-4aaf-868d-4438907c2653}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Hashes.h">
+      <Filter>Source\Hashes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\clipper.hpp">
+      <Filter>Source\Geometry\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Geometry.h">
+      <Filter>Source\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XorStr.h">
+      <Filter>Source\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Perk.h">
+      <Filter>Source\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IBuff.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ICastInfo.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IChampion.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IChampionManager.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IChampionScript.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ICharacterDataStack.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IChat.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ICollision.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IDamageDrawings.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IDamageLib.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IDrawings.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IEvade.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IEventManager.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IGame.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IGameObject.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IGapclose.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IGapcloseMenu.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IHealthPrediction.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IHud.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IInterruptibleSpell.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IInterruptibleSpellMenu.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IInventorySlot.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ILogging.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IMainMenu.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IMenu.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IMenuElement.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IMenuTab.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IMinionHealthPrediction.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IMiscScript.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IModule.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IModuleManager.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IMouseLogic.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\INavMesh.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IObjectManager.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IObjectStats.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IOrbwalker.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IPathController.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IPermaShow.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IPluginSDK.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IPrediction.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IRenderer.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ISpellData.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ISpellFarming.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ISpellInfo.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ISpellInstance.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ISpellLogic.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ISpellTargetingData.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ITabChild.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ITargetSelector.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ITargetspell.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ITargetspellMenu.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ITracker.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IUnitComponentInfo.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IVisibilityTracker.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IWorld.h">
+      <Filter>Source\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enums.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EventArgs.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LeagueGlobals.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ObjectList.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDK.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector2.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector3.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spells.h">
+      <Filter>Source\Spells</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\clipper.cpp">
+      <Filter>Source\Geometry\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Geometry.cpp">
+      <Filter>Source\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LeagueGlobals.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ObjectList.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDK.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector3.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spells.cpp">
+      <Filter>Source\Spells</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

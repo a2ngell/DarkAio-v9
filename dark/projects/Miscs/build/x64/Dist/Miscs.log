@@ -1,0 +1,19 @@
+﻿  Predection.cpp
+C:\Users\user\Desktop\new9bit\dark\projects\Miscs\src\Predection.cpp(162,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\Desktop\new9bit\dark\projects\Miscs\src\Predection.cpp(172,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\user\Desktop\new9bit\dark\projects\Miscs\src\Predection.cpp(209,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+C:\Users\user\Desktop\new9bit\dark\projects\Miscs\src\main.cpp(42,1): warning C4190: 'name' has C-linkage specified, but returns UDT 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\user\Desktop\new9bit\dark\projects\Miscs\src\main.cpp(47,1): warning C4190: 'description' has C-linkage specified, but returns UDT 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\user\Desktop\new9bit\dark\projects\Miscs\src\main.cpp(55,1): warning C4190: 'author' has C-linkage specified, but returns UDT 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\user\Desktop\new9bit\dark\projects\Miscs\src\main.cpp(60,1): warning C4190: 'version' has C-linkage specified, but returns UDT 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\user\Desktop\new9bit\dark\projects\Miscs\src\main.cpp(78,1): warning C4190: 'sdkVersion' has C-linkage specified, but returns UDT 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+     Creating library dist\x64\Dist\Miscs.lib and object dist\x64\Dist\Miscs.exp
+main.obj : error LNK2001: unresolved external symbol "void __cdecl Predection::load(void)" (?load@Predection@@YAXXZ)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl Predection::unload(void)" (?unload@Predection@@YAXXZ)
+dist\x64\Dist\Miscs.dll : fatal error LNK1120: 2 unresolved externals
